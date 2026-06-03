@@ -5,6 +5,7 @@ import {
   Compass, Menu, X, Search, Users, MessageCircle, Sparkles, Heart,
   Bike, Footprints, Camera,
 } from "lucide-react";
+import { supabase } from "./supabaseClient";
 
 /* ============================== THEME ============================== */
 const C = {
@@ -616,13 +617,13 @@ function Footer({ go, t }) {
 }
 
 /* ============================== APP ============================== */
+const TEST_COMPANION = { id: "c-test", name: "Test", area: "Santa Cruz · Tenerife", modes: ["car", "walk"],
+  about: "Hi — I'm a sample profile so you can see how a Compañero looks. This is where I'd tell you about my favourite corners of the island: the quiet coves, a guachinche my family loves, and the best spot to watch the sun go down over the Atlantic." };
+
 export default function App() {
   const [view, setView] = useState("home");
   const [lang, setLang] = useState("en");
-  const [companions, setCompanions] = useState([
-    { id: "c-test", name: "Test", area: "Santa Cruz · Tenerife", modes: ["car", "walk"],
-      about: "Hi — I'm a sample profile so you can see how a Compañero looks. This is where I'd tell you about my favourite corners of the island: the quiet coves, a guachinche my family loves, and the best spot to watch the sun go down over the Atlantic." },
-  ]);
+  const [companions, setCompanions] = useState([TEST_COMPANION]);
   const [selected, setSelected] = useState(null);
   const [modal, setModal] = useState(null);
   const [sentComp, setSentComp] = useState(null);
@@ -636,6 +637,34 @@ export default function App() {
   };
   const openComp = (c) => { setSelected(c); setView("profile"); window.scrollTo({ top: 0 }); };
   useEffect(() => { const s = () => setScrolled(window.scrollY > 20); window.addEventListener("scroll", s); return () => window.removeEventListener("scroll", s); }, []);
+
+  // Load saved compañeros from the database on first load
+  useEffect(() => {
+    (async () => {
+      const { data, error } = await supabase.from("companeros").select("*").order("created_at", { ascending: false });
+      if (!error && data) {
+        const rows = data.map((r) => ({ id: r.id, name: r.name, area: r.area, about: r.about, modes: r.modes || [], photo: r.photo_url }));
+        setCompanions([TEST_COMPANION, ...rows]);
+      }
+    })();
+  }, []);
+
+  // Save a new compañero: upload the photo to storage, then insert the row
+  const addCompanion = async (c) => {
+    setCompanions((p) => [...p, c]); // show immediately
+    try {
+      let photo_url = null;
+      if (c.photo && c.photo.startsWith("data:")) {
+        const blob = await (await fetch(c.photo)).blob();
+        const ext = ((blob.type.split("/")[1] || "jpg").split("+")[0]).split(";")[0];
+        const path = `${c.id}-${Date.now()}.${ext}`;
+        const { error: upErr } = await supabase.storage.from("photos").upload(path, blob, { contentType: blob.type, upsert: true });
+        if (!upErr) photo_url = supabase.storage.from("photos").getPublicUrl(path).data.publicUrl;
+      }
+      await supabase.from("companeros").insert({ name: c.name, area: c.area, about: c.about, modes: c.modes, photo_url });
+    } catch (e) { console.error("save failed", e); }
+  };
+
   const idxOf = (c) => Math.max(0, companions.findIndex((x) => x.id === c.id));
 
   return (
@@ -665,7 +694,7 @@ export default function App() {
       `}</style>
       <Nav go={go} solid={scrolled || view !== "home"} t={t} lang={lang} setLang={setLang} />
       {view === "home" && <Home go={go} companions={companions} openComp={openComp} t={t} />}
-      {view === "become" && <Become go={go} onRegister={(c) => setCompanions((p) => [...p, c])} t={t} />}
+      {view === "become" && <Become go={go} onRegister={(c) => addCompanion(c)} t={t} />}
       {view === "profile" && selected && <CompanionProfile comp={selected} i={idxOf(selected)} go={go} onRequest={(c) => setModal(c)} t={t} />}
       {view === "sent" && sentComp && <Sent comp={sentComp} go={go} t={t} />}
       {modal && <RequestModal comp={modal} i={idxOf(modal)} onClose={() => setModal(null)} onConfirm={() => { setSentComp(modal); setModal(null); go("sent"); }} t={t} />}
