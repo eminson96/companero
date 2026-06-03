@@ -58,7 +58,7 @@ const TR = {
     reqTitle: "Send a request to {name}", reqBody: "You'll be able to message {name}, agree on the day and plan, and pay securely once you both confirm.",
     cancel: "Cancel", sendRequest: "Send request", sentTitle: "Request sent!",
     sentBody: "{name} will get back to you soon. You can plan the day together in your messages.", backHome: "Back home",
-    fTrust: "Trust & safety", fContact: "Contact", rights: "Verified locals · Secure payments · 18+", copyright: "© {year} Compañero · Tenerife, Canary Islands" },
+    fTrust: "Trust & safety", fContact: "Contact", rights: "Verified locals · Secure payments · 18+", copyright: "© {year} Compañero · Tenerife, Canary Islands", login: "Log in", signup: "Sign up", logout: "Log out", dashboard: "Dashboard", email: "Email", password: "Password", welcomeBack: "Welcome back", createAccount: "Create your account", toSignup: "New here? Create an account", toLogin: "Already have an account? Log in", pending: "Pending review", loginToContinue: "Please log in to continue.", dashTitle: "Your dashboard", dashHi: "Signed in as {email}", dashProfile: "Your Compañero profile", dashNoProfile: "You haven't created a Compañero profile yet.", dashBecomeCta: "Create your profile", dashSetup: "Getting set up", dashStep1: "Profile created", dashStep2: "Get verified", dashStep2sub: "We'll invite you to a short video check to confirm who you are.", dashReceived: "Requests received", dashSent: "Requests you've sent", dashNoReceived: "No requests yet.", dashNoSent: "You haven't sent any requests yet.", dashViewPublic: "View my public profile" },
 
   es: { meet: "Conoce a un Compañero", become: "Hazte Compañero",
     heroBadge: "Gente local · Tenerife de verdad", heroA: "Encuentra a tu Compañero para ", heroB: "vivir Tenerife.",
@@ -88,7 +88,7 @@ const TR = {
     reqTitle: "Envía una solicitud a {name}", reqBody: "Podrás escribir a {name}, acordar el día y el plan, y pagar de forma segura cuando ambos confirméis.",
     cancel: "Cancelar", sendRequest: "Enviar solicitud", sentTitle: "¡Solicitud enviada!",
     sentBody: "{name} te responderá pronto. Podéis planear el día juntos en los mensajes.", backHome: "Volver al inicio",
-    fTrust: "Confianza y seguridad", fContact: "Contacto", rights: "Locales verificados · Pagos seguros · +18", copyright: "© {year} Compañero · Tenerife, Islas Canarias" },
+    fTrust: "Confianza y seguridad", fContact: "Contacto", rights: "Locales verificados · Pagos seguros · +18", copyright: "© {year} Compañero · Tenerife, Islas Canarias", login: "Iniciar sesión", signup: "Registrarse", logout: "Cerrar sesión", dashboard: "Panel", email: "Correo", password: "Contraseña", welcomeBack: "Bienvenido de nuevo", createAccount: "Crea tu cuenta", toSignup: "¿Nuevo aquí? Crea una cuenta", toLogin: "¿Ya tienes cuenta? Inicia sesión", pending: "En revisión", loginToContinue: "Inicia sesión para continuar.", dashTitle: "Tu panel", dashHi: "Sesión iniciada como {email}", dashProfile: "Tu perfil de Compañero", dashNoProfile: "Aún no has creado un perfil de Compañero.", dashBecomeCta: "Crea tu perfil", dashSetup: "Configuración", dashStep1: "Perfil creado", dashStep2: "Verifícate", dashStep2sub: "Te invitaremos a una breve videollamada para confirmar tu identidad.", dashReceived: "Solicitudes recibidas", dashSent: "Solicitudes que enviaste", dashNoReceived: "Aún no hay solicitudes.", dashNoSent: "Aún no has enviado solicitudes.", dashViewPublic: "Ver mi perfil público" },
 
   de: { meet: "Triff einen Compañero", become: "Werde Compañero",
     heroBadge: "Echte Locals · Echtes Teneriffa", heroA: "Finde deinen Compañero, um ", heroB: "Teneriffa zu erleben.",
@@ -118,7 +118,7 @@ const TR = {
     reqTitle: "Sende {name} eine Anfrage", reqBody: "Du kannst {name} schreiben, den Tag und Plan abstimmen und sicher bezahlen, sobald ihr beide bestätigt.",
     cancel: "Abbrechen", sendRequest: "Anfrage senden", sentTitle: "Anfrage gesendet!",
     sentBody: "{name} meldet sich bald bei dir. Den Tag könnt ihr gemeinsam in den Nachrichten planen.", backHome: "Zur Startseite",
-    fTrust: "Vertrauen & Sicherheit", fContact: "Kontakt", rights: "Verifizierte Locals · Sichere Zahlungen · 18+", copyright: "© {year} Compañero · Teneriffa, Kanarische Inseln" },
+    fTrust: "Vertrauen & Sicherheit", fContact: "Kontakt", rights: "Verifizierte Locals · Sichere Zahlungen · 18+", copyright: "© {year} Compañero · Teneriffa, Kanarische Inseln", login: "Anmelden", signup: "Registrieren", logout: "Abmelden", dashboard: "Dashboard", email: "E-Mail", password: "Passwort", welcomeBack: "Willkommen zurück", createAccount: "Konto erstellen", toSignup: "Neu hier? Konto erstellen", toLogin: "Schon ein Konto? Anmelden", pending: "In Prüfung", loginToContinue: "Bitte melde dich an, um fortzufahren.", dashTitle: "Dein Dashboard", dashHi: "Angemeldet als {email}", dashProfile: "Dein Compañero-Profil", dashNoProfile: "Du hast noch kein Compañero-Profil erstellt.", dashBecomeCta: "Profil erstellen", dashSetup: "Einrichtung", dashStep1: "Profil erstellt", dashStep2: "Verifizieren", dashStep2sub: "Wir laden dich zu einem kurzen Videocheck ein, um deine Identität zu bestätigen.", dashReceived: "Erhaltene Anfragen", dashSent: "Gesendete Anfragen", dashNoReceived: "Noch keine Anfragen.", dashNoSent: "Du hast noch keine Anfragen gesendet.", dashViewPublic: "Mein öffentliches Profil ansehen" },
 
   fr: { meet: "Rencontrez un Compañero", become: "Devenez Compañero",
     heroBadge: "De vrais locaux · La vraie Tenerife", heroA: "Trouvez votre Compañero pour ", heroB: "vivre Tenerife.",
@@ -148,7 +148,7 @@ const TR = {
     reqTitle: "Envoyez une demande à {name}", reqBody: "Vous pourrez écrire à {name}, convenir de la journée et du plan, et payer en toute sécurité une fois que vous aurez tous les deux confirmé.",
     cancel: "Annuler", sendRequest: "Envoyer la demande", sentTitle: "Demande envoyée !",
     sentBody: "{name} vous répondra bientôt. Vous pouvez planifier la journée ensemble dans vos messages.", backHome: "Retour à l'accueil",
-    fTrust: "Confiance et sécurité", fContact: "Contact", rights: "Locaux vérifiés · Paiements sécurisés · 18+", copyright: "© {year} Compañero · Tenerife, Îles Canaries" },
+    fTrust: "Confiance et sécurité", fContact: "Contact", rights: "Locaux vérifiés · Paiements sécurisés · 18+", copyright: "© {year} Compañero · Tenerife, Îles Canaries", login: "Se connecter", signup: "S'inscrire", logout: "Se déconnecter", dashboard: "Tableau de bord", email: "E-mail", password: "Mot de passe", welcomeBack: "Bon retour", createAccount: "Créez votre compte", toSignup: "Nouveau ici ? Créez un compte", toLogin: "Déjà un compte ? Connectez-vous", pending: "En cours de vérification", loginToContinue: "Connectez-vous pour continuer.", dashTitle: "Votre tableau de bord", dashHi: "Connecté en tant que {email}", dashProfile: "Votre profil de Compañero", dashNoProfile: "Vous n'avez pas encore créé de profil de Compañero.", dashBecomeCta: "Créer mon profil", dashSetup: "Configuration", dashStep1: "Profil créé", dashStep2: "Se faire vérifier", dashStep2sub: "Nous vous inviterons à un court appel vidéo pour confirmer votre identité.", dashReceived: "Demandes reçues", dashSent: "Demandes envoyées", dashNoReceived: "Aucune demande pour l'instant.", dashNoSent: "Vous n'avez encore envoyé aucune demande.", dashViewPublic: "Voir mon profil public" },
 
   it: { meet: "Incontra un Compañero", become: "Diventa Compañero",
     heroBadge: "Gente del posto · La vera Tenerife", heroA: "Trova il tuo Compañero per ", heroB: "vivere Tenerife.",
@@ -178,7 +178,7 @@ const TR = {
     reqTitle: "Invia una richiesta a {name}", reqBody: "Potrai scrivere a {name}, accordarti sulla giornata e sul piano e pagare in sicurezza una volta che entrambi confermate.",
     cancel: "Annulla", sendRequest: "Invia richiesta", sentTitle: "Richiesta inviata!",
     sentBody: "{name} ti risponderà presto. Potete pianificare la giornata insieme nei messaggi.", backHome: "Torna alla home",
-    fTrust: "Fiducia e sicurezza", fContact: "Contatti", rights: "Local verificati · Pagamenti sicuri · 18+", copyright: "© {year} Compañero · Tenerife, Isole Canarie" },
+    fTrust: "Fiducia e sicurezza", fContact: "Contatti", rights: "Local verificati · Pagamenti sicuri · 18+", copyright: "© {year} Compañero · Tenerife, Isole Canarie", login: "Accedi", signup: "Registrati", logout: "Esci", dashboard: "Dashboard", email: "Email", password: "Password", welcomeBack: "Bentornato", createAccount: "Crea il tuo account", toSignup: "Nuovo qui? Crea un account", toLogin: "Hai già un account? Accedi", pending: "In revisione", loginToContinue: "Accedi per continuare.", dashTitle: "La tua dashboard", dashHi: "Accesso come {email}", dashProfile: "Il tuo profilo Compañero", dashNoProfile: "Non hai ancora creato un profilo Compañero.", dashBecomeCta: "Crea il tuo profilo", dashSetup: "Configurazione", dashStep1: "Profilo creato", dashStep2: "Verìficati", dashStep2sub: "Ti inviteremo a una breve videochiamata per confermare la tua identità.", dashReceived: "Richieste ricevute", dashSent: "Richieste inviate", dashNoReceived: "Ancora nessuna richiesta.", dashNoSent: "Non hai ancora inviato richieste.", dashViewPublic: "Vedi il mio profilo pubblico" },
 
   ro: { meet: "Cunoaște un Compañero", become: "Devino Compañero",
     heroBadge: "Localnici reali · Tenerife real", heroA: "Găsește-ți Compañero ca să ", heroB: "trăiești Tenerife.",
@@ -208,7 +208,7 @@ const TR = {
     reqTitle: "Trimite o cerere către {name}", reqBody: "Vei putea să-i scrii lui {name}, să stabiliți ziua și planul și să plătești în siguranță după ce confirmați amândoi.",
     cancel: "Anulează", sendRequest: "Trimite cererea", sentTitle: "Cerere trimisă!",
     sentBody: "{name} îți va răspunde în curând. Puteți planifica ziua împreună în mesaje.", backHome: "Înapoi acasă",
-    fTrust: "Încredere și siguranță", fContact: "Contact", rights: "Localnici verificați · Plăți sigure · 18+", copyright: "© {year} Compañero · Tenerife, Insulele Canare" },
+    fTrust: "Încredere și siguranță", fContact: "Contact", rights: "Localnici verificați · Plăți sigure · 18+", copyright: "© {year} Compañero · Tenerife, Insulele Canare", login: "Autentificare", signup: "Înregistrare", logout: "Deconectare", dashboard: "Panou", email: "Email", password: "Parolă", welcomeBack: "Bine ai revenit", createAccount: "Creează-ți contul", toSignup: "Ești nou? Creează un cont", toLogin: "Ai deja cont? Autentifică-te", pending: "În verificare", loginToContinue: "Autentifică-te pentru a continua.", dashTitle: "Panoul tău", dashHi: "Conectat ca {email}", dashProfile: "Profilul tău de Compañero", dashNoProfile: "Încă nu ai creat un profil de Compañero.", dashBecomeCta: "Creează-ți profilul", dashSetup: "Configurare", dashStep1: "Profil creat", dashStep2: "Verifică-te", dashStep2sub: "Te vom invita la un scurt apel video ca să-ți confirmăm identitatea.", dashReceived: "Cereri primite", dashSent: "Cereri trimise", dashNoReceived: "Încă nicio cerere.", dashNoSent: "Încă nu ai trimis nicio cerere.", dashViewPublic: "Vezi profilul meu public" },
 
   ru: { meet: "Найти Compañero", become: "Стать Compañero",
     heroBadge: "Настоящие местные · Настоящий Тенерифе", heroA: "Найдите своего Compañero, чтобы ", heroB: "почувствовать Тенерифе.",
@@ -238,7 +238,7 @@ const TR = {
     reqTitle: "Отправить запрос {name}", reqBody: "Вы сможете написать {name}, договориться о дне и плане и безопасно оплатить, когда оба подтвердите.",
     cancel: "Отмена", sendRequest: "Отправить запрос", sentTitle: "Запрос отправлен!",
     sentBody: "{name} скоро вам ответит. Вы можете спланировать день вместе в сообщениях.", backHome: "На главную",
-    fTrust: "Доверие и безопасность", fContact: "Контакты", rights: "Проверенные местные · Безопасные платежи · 18+", copyright: "© {year} Compañero · Тенерифе, Канарские острова" },
+    fTrust: "Доверие и безопасность", fContact: "Контакты", rights: "Проверенные местные · Безопасные платежи · 18+", copyright: "© {year} Compañero · Тенерифе, Канарские острова", login: "Войти", signup: "Регистрация", logout: "Выйти", dashboard: "Панель", email: "Эл. почта", password: "Пароль", welcomeBack: "С возвращением", createAccount: "Создайте аккаунт", toSignup: "Впервые здесь? Создайте аккаунт", toLogin: "Уже есть аккаунт? Войдите", pending: "На проверке", loginToContinue: "Войдите, чтобы продолжить.", dashTitle: "Ваша панель", dashHi: "Вы вошли как {email}", dashProfile: "Ваш профиль Compañero", dashNoProfile: "Вы ещё не создали профиль Compañero.", dashBecomeCta: "Создать профиль", dashSetup: "Настройка", dashStep1: "Профиль создан", dashStep2: "Пройти проверку", dashStep2sub: "Мы пригласим вас на короткий видеозвонок для подтверждения личности.", dashReceived: "Полученные запросы", dashSent: "Отправленные запросы", dashNoReceived: "Запросов пока нет.", dashNoSent: "Вы ещё не отправляли запросов.", dashViewPublic: "Посмотреть мой публичный профиль" },
 
   uk: { meet: "Знайти Compañero", become: "Стати Compañero",
     heroBadge: "Справжні місцеві · Справжній Тенерифе", heroA: "Знайдіть свого Compañero, щоб ", heroB: "відчути Тенерифе.",
@@ -268,9 +268,10 @@ const TR = {
     reqTitle: "Надіслати запит до {name}", reqBody: "Ви зможете написати {name}, домовитися про день і план та безпечно сплатити, коли обидва підтвердите.",
     cancel: "Скасувати", sendRequest: "Надіслати запит", sentTitle: "Запит надіслано!",
     sentBody: "{name} незабаром вам відповість. Ви можете спланувати день разом у повідомленнях.", backHome: "На головну",
-    fTrust: "Довіра і безпека", fContact: "Контакти", rights: "Перевірені місцеві · Безпечні платежі · 18+", copyright: "© {year} Compañero · Тенерифе, Канарські острови" },
+    fTrust: "Довіра і безпека", fContact: "Контакти", rights: "Перевірені місцеві · Безпечні платежі · 18+", copyright: "© {year} Compañero · Тенерифе, Канарські острови", login: "Увійти", signup: "Реєстрація", logout: "Вийти", dashboard: "Панель", email: "Ел. пошта", password: "Пароль", welcomeBack: "З поверненням", createAccount: "Створіть акаунт", toSignup: "Уперше тут? Створіть акаунт", toLogin: "Вже маєте акаунт? Увійдіть", pending: "На перевірці", loginToContinue: "Увійдіть, щоб продовжити.", dashTitle: "Ваша панель", dashHi: "Ви увійшли як {email}", dashProfile: "Ваш профіль Compañero", dashNoProfile: "Ви ще не створили профіль Compañero.", dashBecomeCta: "Створити профіль", dashSetup: "Налаштування", dashStep1: "Профіль створено", dashStep2: "Пройти перевірку", dashStep2sub: "Ми запросимо вас на короткий відеодзвінок для підтвердження особи.", dashReceived: "Отримані запити", dashSent: "Надіслані запити", dashNoReceived: "Запитів поки немає.", dashNoSent: "Ви ще не надсилали запитів.", dashViewPublic: "Переглянути мій публічний профіль" },
 };
 const fill = (s, vars = {}) => s.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? "");
+const mapRow = (r) => ({ id: r.id, name: r.name, area: r.area, about: r.about, modes: r.modes || [], photo: r.photo_url, status: r.status || "pending", user_id: r.user_id });
 
 /* ============================== UI ATOMS ============================== */
 const Pill = ({ children, style }) => (<span style={{ fontFamily: BODY, fontSize: 11.5, fontWeight: 600, letterSpacing: 0.3, padding: "5px 11px", borderRadius: 999, ...style }}>{children}</span>);
@@ -333,7 +334,7 @@ function CompanionCard({ comp, i, onOpen }) {
 }
 
 /* ============================== NAV ============================== */
-function Nav({ go, solid, t, lang, setLang }) {
+function Nav({ go, solid, t, lang, setLang, user, onLogin, onLogout, onDashboard }) {
   const [open, setOpen] = useState(false);
   return (
     <div style={{ position: "sticky", top: 0, zIndex: 50, background: "rgba(252,251,248,.9)", backdropFilter: "blur(12px)", borderBottom: `1px solid ${solid ? C.line : "transparent"}`, transition: "border-color .3s" }}>
@@ -345,6 +346,9 @@ function Nav({ go, solid, t, lang, setLang }) {
         <div className="cm-desk" style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 4 }}>
           <button onClick={() => go("home", { scroll: "companeros" })} style={navLink}>{t.meet}</button>
           <button onClick={() => go("become")} style={navLink}>{t.become}</button>
+          {user
+            ? <><button onClick={onDashboard} style={navLink}>{t.dashboard}</button><button onClick={onLogout} style={navLink}>{t.logout}</button></>
+            : <button onClick={onLogin} style={navLink}>{t.login}</button>}
           <LangMenu lang={lang} setLang={setLang} />
         </div>
         <button className="cm-mob" onClick={() => setOpen(!open)} aria-label="Menu" style={{ marginLeft: "auto", width: 42, height: 42, borderRadius: 12, border: `1px solid ${C.line}`, background: C.surface, cursor: "pointer", color: C.ink, display: "flex", alignItems: "center", justifyContent: "center" }}>{open ? <X size={22} /> : <Menu size={22} />}</button>
@@ -355,6 +359,10 @@ function Nav({ go, solid, t, lang, setLang }) {
             <button onClick={() => { setOpen(false); go("home", { scroll: "companeros" }); }} style={mobItem}>{t.meet}</button>
             <div style={{ height: 1, background: C.lineSoft, margin: "2px 12px" }} />
             <button onClick={() => { setOpen(false); go("become"); }} style={mobItem}>{t.become}</button>
+            <div style={{ height: 1, background: C.lineSoft, margin: "2px 12px" }} />
+            {user
+              ? <><button onClick={() => { setOpen(false); onDashboard(); }} style={mobItem}>{t.dashboard}</button><div style={{ height: 1, background: C.lineSoft, margin: "2px 12px" }} /><button onClick={() => { setOpen(false); onLogout(); }} style={mobItem}>{t.logout}</button></>
+              : <button onClick={() => { setOpen(false); onLogin(); }} style={mobItem}>{t.login}</button>}
             <div style={{ height: 1, background: C.lineSoft, margin: "6px 12px" }} />
             <div style={{ display: "flex", flexWrap: "wrap", gap: 6, padding: "6px 10px 8px" }}>
               {LANGS.map((l) => (
@@ -451,7 +459,9 @@ function CompanionProfile({ comp, i, go, onRequest, t }) {
               <div>
                 <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
                   <h1 style={{ fontFamily: HEAD, fontSize: "clamp(28px,4.6vw,42px)", fontWeight: 800, color: C.ink, margin: 0, letterSpacing: -0.8 }}>{comp.name}</h1>
-                  <Pill style={{ background: "#E7F4F2", color: C.teal, padding: "4px 10px" }}><ShieldCheck size={12} style={{ verticalAlign: -2, marginRight: 4 }} />{t.verified}</Pill>
+                  {comp.status === "verified"
+                    ? <Pill style={{ background: "#E7F4F2", color: C.teal, padding: "4px 10px" }}><ShieldCheck size={12} style={{ verticalAlign: -2, marginRight: 4 }} />{t.verified}</Pill>
+                    : <Pill style={{ background: "#FBEFD9", color: "#9A6B16", padding: "4px 10px" }}><ShieldCheck size={12} style={{ verticalAlign: -2, marginRight: 4 }} />{t.pending}</Pill>}
                 </div>
                 <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginTop: 8, fontFamily: BODY, fontSize: 14, color: C.inkSoft }}>
                   <span style={{ display: "inline-flex", gap: 6, alignItems: "center" }}><MapPin size={15} color={C.coral} /> {comp.area}</span>
@@ -505,7 +515,7 @@ function Become({ go, onRegister, t }) {
                 </div>
               ))}
             </div>
-            <Btn onClick={() => go("home")}>{t.seeProfile}</Btn>
+            <Btn onClick={() => go("dashboard")}>{t.seeProfile}</Btn>
           </div>
         </Section>
         <Footer go={go} t={t} />
@@ -589,6 +599,114 @@ function Sent({ comp, go, t }) {
   );
 }
 
+/* ============================== AUTH (login / signup) ============================== */
+function Auth({ t, go, onAuthed }) {
+  const [mode, setMode] = useState("in");
+  const [email, setEmail] = useState("");
+  const [pw, setPw] = useState("");
+  const [err, setErr] = useState("");
+  const [busy, setBusy] = useState(false);
+  const submit = async () => {
+    if (!email || !pw) return;
+    setErr(""); setBusy(true);
+    const { error } = mode === "up"
+      ? await supabase.auth.signUp({ email, password: pw })
+      : await supabase.auth.signInWithPassword({ email, password: pw });
+    setBusy(false);
+    if (error) setErr(error.message); else onAuthed();
+  };
+  return (
+    <div>
+      <Section pt={42}>
+        <div style={{ maxWidth: 420, margin: "0 auto", background: C.surface, border: `1px solid ${C.line}`, borderRadius: 20, padding: "clamp(22px,4vw,32px)", boxShadow: C.shadow }}>
+          <h1 style={{ fontFamily: HEAD, fontSize: 28, fontWeight: 800, color: C.ink, margin: "0 0 18px", letterSpacing: -0.6 }}>{mode === "up" ? t.createAccount : t.welcomeBack}</h1>
+          <Field label={t.email}><input type="email" autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} style={field} /></Field>
+          <Field label={t.password}><input type="password" autoComplete="current-password" value={pw} onChange={(e) => setPw(e.target.value)} style={field} /></Field>
+          {err && <p style={{ fontFamily: BODY, fontSize: 13.5, color: C.coralDeep, margin: "0 0 12px", lineHeight: 1.5 }}>{err}</p>}
+          <Btn onClick={submit} style={{ width: "100%", opacity: busy ? 0.6 : 1 }}>{mode === "up" ? t.signup : t.login}</Btn>
+          <button onClick={() => { setMode(mode === "up" ? "in" : "up"); setErr(""); }} style={{ width: "100%", background: "none", border: "none", cursor: "pointer", fontFamily: BODY, fontSize: 13.5, color: C.inkSoft, marginTop: 14 }}>{mode === "up" ? t.toLogin : t.toSignup}</button>
+        </div>
+      </Section>
+      <Footer go={go} t={t} />
+    </div>
+  );
+}
+
+/* ============================== DASHBOARD ============================== */
+function ReqRow({ title, sub, status }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 12, background: C.surface, border: `1px solid ${C.line}`, borderRadius: 14, padding: "14px 16px", marginBottom: 10 }}>
+      <span style={{ width: 38, height: 38, borderRadius: 999, background: "#FEEFEB", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}><MessageCircle size={18} color={C.coral} /></span>
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <strong style={{ fontFamily: HEAD, fontSize: 15, color: C.ink, display: "block" }}>{title}</strong>
+        <span style={{ fontFamily: BODY, fontSize: 13, color: C.inkSoft }}>{sub}</span>
+      </div>
+      <span style={{ fontFamily: BODY, fontSize: 11.5, fontWeight: 600, color: C.inkSoft, textTransform: "capitalize" }}>{status}</span>
+    </div>
+  );
+}
+function Dashboard({ t, go, user, myProfile, sent, received, onViewProfile }) {
+  const dt = (s) => { try { return new Date(s).toLocaleDateString(); } catch { return ""; } };
+  return (
+    <div>
+      <Section pt={36}>
+        <h1 style={{ fontFamily: HEAD, fontSize: "clamp(28px,5vw,42px)", fontWeight: 800, color: C.ink, margin: 0, letterSpacing: -0.8 }}>{t.dashTitle}</h1>
+        <p style={{ fontFamily: BODY, fontSize: 15, color: C.inkSoft, margin: "8px 0 28px" }}>{fill(t.dashHi, { email: user?.email || "" })}</p>
+
+        {myProfile ? (
+          <>
+            <div style={{ background: C.surface, border: `1px solid ${C.line}`, borderRadius: 20, padding: 22, marginBottom: 16 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                <Avatar name={myProfile.name} i={0} size={56} photo={myProfile.photo} />
+                <div style={{ flex: 1 }}>
+                  <strong style={{ fontFamily: HEAD, fontSize: 19, color: C.ink }}>{myProfile.name}</strong>
+                  <div style={{ fontFamily: BODY, fontSize: 13.5, color: C.inkSoft, display: "inline-flex", alignItems: "center", gap: 5 }}><MapPin size={13} color={C.coral} /> {myProfile.area}</div>
+                </div>
+                {myProfile.status === "verified"
+                  ? <Pill style={{ background: "#E7F4F2", color: C.teal }}><ShieldCheck size={12} style={{ verticalAlign: -2, marginRight: 4 }} />{t.verified}</Pill>
+                  : <Pill style={{ background: "#FBEFD9", color: "#9A6B16" }}><ShieldCheck size={12} style={{ verticalAlign: -2, marginRight: 4 }} />{t.pending}</Pill>}
+              </div>
+              {/* onboarding checklist */}
+              <div style={{ marginTop: 18, borderTop: `1px solid ${C.line}`, paddingTop: 16 }}>
+                <p style={{ fontFamily: BODY, fontSize: 12, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", color: C.inkDim, margin: "0 0 12px" }}>{t.dashSetup}</p>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
+                  <span style={{ width: 22, height: 22, borderRadius: 999, background: C.teal, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}><Check size={13} color="#FFF" /></span>
+                  <span style={{ fontFamily: BODY, fontSize: 14.5, color: C.ink }}>{t.dashStep1}</span>
+                </div>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+                  <span style={{ width: 22, height: 22, borderRadius: 999, border: `2px solid ${myProfile.status === "verified" ? C.teal : "#E0C48A"}`, background: myProfile.status === "verified" ? C.teal : "transparent", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 1 }}>{myProfile.status === "verified" && <Check size={12} color="#FFF" />}</span>
+                  <div>
+                    <span style={{ fontFamily: BODY, fontSize: 14.5, color: C.ink, fontWeight: 600 }}>{t.dashStep2}</span>
+                    <p style={{ fontFamily: BODY, fontSize: 13, color: C.inkSoft, margin: "2px 0 0", lineHeight: 1.5 }}>{t.dashStep2sub}</p>
+                  </div>
+                </div>
+              </div>
+              <button onClick={() => onViewProfile(myProfile)} style={{ marginTop: 16, background: "none", border: "none", cursor: "pointer", fontFamily: BODY, fontSize: 13.5, fontWeight: 600, color: C.coral, display: "inline-flex", alignItems: "center", gap: 5, padding: 0 }}>{t.dashViewPublic} <ArrowRight size={14} /></button>
+            </div>
+
+            <h3 style={{ fontFamily: HEAD, fontSize: 19, fontWeight: 700, color: C.ink, margin: "26px 0 12px" }}>{t.dashReceived}</h3>
+            {received.length === 0
+              ? <p style={{ fontFamily: BODY, fontSize: 14.5, color: C.inkSoft }}>{t.dashNoReceived}</p>
+              : received.map((r) => <ReqRow key={r.id} title={r.traveller_email} sub={dt(r.created_at)} status={r.status} />)}
+          </>
+        ) : (
+          <div style={{ background: C.surface, border: `1.5px dashed ${C.line}`, borderRadius: 20, padding: "36px 22px", textAlign: "center", marginBottom: 16 }}>
+            <span style={{ width: 56, height: 56, borderRadius: 999, background: "#FEEFEB", display: "inline-flex", alignItems: "center", justifyContent: "center", marginBottom: 12 }}><Compass size={26} color={C.coral} /></span>
+            <p style={{ fontFamily: BODY, fontSize: 15.5, color: C.ink, margin: "0 auto 16px", maxWidth: 360, lineHeight: 1.55 }}>{t.dashNoProfile}</p>
+            <Btn onClick={() => go("become")}>{t.dashBecomeCta} <ArrowRight size={17} /></Btn>
+          </div>
+        )}
+
+        <h3 style={{ fontFamily: HEAD, fontSize: 19, fontWeight: 700, color: C.ink, margin: "26px 0 12px" }}>{t.dashSent}</h3>
+        {sent.length === 0
+          ? <p style={{ fontFamily: BODY, fontSize: 14.5, color: C.inkSoft }}>{t.dashNoSent}</p>
+          : sent.map((r) => <ReqRow key={r.id} title={r.companero_name} sub={dt(r.created_at)} status={r.status} />)}
+      </Section>
+      <Footer go={go} t={t} />
+    </div>
+  );
+}
+
 /* ============================== LAYOUT ============================== */
 const Section = ({ children, pt = 56, id }) => (<div id={id} style={{ maxWidth: 1080, margin: "0 auto", padding: `${pt}px 22px 56px` }}>{children}</div>);
 function Footer({ go, t }) {
@@ -617,13 +735,18 @@ function Footer({ go, t }) {
 }
 
 /* ============================== APP ============================== */
-const TEST_COMPANION = { id: "c-test", name: "Test", area: "Santa Cruz · Tenerife", modes: ["car", "walk"],
+const TEST_COMPANION = { id: "c-test", name: "Test", area: "Santa Cruz · Tenerife", modes: ["car", "walk"], status: "verified",
   about: "Hi — I'm a sample profile so you can see how a Compañero looks. This is where I'd tell you about my favourite corners of the island: the quiet coves, a guachinche my family loves, and the best spot to watch the sun go down over the Atlantic." };
 
 export default function App() {
   const [view, setView] = useState("home");
   const [lang, setLang] = useState("en");
+  const [user, setUser] = useState(null);
+  const [authNext, setAuthNext] = useState("home");
   const [companions, setCompanions] = useState([TEST_COMPANION]);
+  const [myProfile, setMyProfile] = useState(null);
+  const [sent, setSent] = useState([]);
+  const [received, setReceived] = useState([]);
   const [selected, setSelected] = useState(null);
   const [modal, setModal] = useState(null);
   const [sentComp, setSentComp] = useState(null);
@@ -638,12 +761,19 @@ export default function App() {
   const openComp = (c) => { setSelected(c); setView("profile"); window.scrollTo({ top: 0 }); };
   useEffect(() => { const s = () => setScrolled(window.scrollY > 20); window.addEventListener("scroll", s); return () => window.removeEventListener("scroll", s); }, []);
 
+  // Track who is logged in
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data }) => setUser(data.session?.user ?? null));
+    const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => setUser(session?.user ?? null));
+    return () => sub.subscription.unsubscribe();
+  }, []);
+
   // Load saved compañeros from the database on first load
   useEffect(() => {
     (async () => {
       const { data, error } = await supabase.from("companeros").select("*").order("created_at", { ascending: false });
       if (!error && data) {
-        const rows = data.map((r) => ({ id: r.id, name: r.name, area: r.area, about: r.about, modes: r.modes || [], photo: r.photo_url }));
+        const rows = data.map(mapRow);
         setCompanions([TEST_COMPANION, ...rows]);
       }
     })();
@@ -651,7 +781,7 @@ export default function App() {
 
   // Save a new compañero: upload the photo to storage, then insert the row
   const addCompanion = async (c) => {
-    setCompanions((p) => [...p, c]); // show immediately
+    setCompanions((p) => [...p, { ...c, status: "pending" }]); // show immediately
     try {
       let photo_url = null;
       if (c.photo && c.photo.startsWith("data:")) {
@@ -661,11 +791,32 @@ export default function App() {
         const { error: upErr } = await supabase.storage.from("photos").upload(path, blob, { contentType: blob.type, upsert: true });
         if (!upErr) photo_url = supabase.storage.from("photos").getPublicUrl(path).data.publicUrl;
       }
-      await supabase.from("companeros").insert({ name: c.name, area: c.area, about: c.about, modes: c.modes, photo_url });
+      await supabase.from("companeros").insert({ name: c.name, area: c.area, about: c.about, modes: c.modes, photo_url, status: "pending", user_id: user?.id ?? null });
     } catch (e) { console.error("save failed", e); }
   };
 
   const idxOf = (c) => Math.max(0, companions.findIndex((x) => x.id === c.id));
+
+  // Load dashboard data (my profile + my sent/received requests)
+  useEffect(() => {
+    if (view !== "dashboard" || !user) return;
+    (async () => {
+      const { data: prof } = await supabase.from("companeros").select("*").eq("user_id", user.id).order("created_at", { ascending: false }).limit(1);
+      setMyProfile(prof && prof[0] ? mapRow(prof[0]) : null);
+      const { data: s } = await supabase.from("requests").select("*").eq("traveller_id", user.id).order("created_at", { ascending: false });
+      setSent(s || []);
+      const { data: r } = await supabase.from("requests").select("*").eq("companero_user_id", user.id).order("created_at", { ascending: false });
+      setReceived(r || []);
+    })();
+  }, [view, user]);
+
+  // Save a request to the database
+  const confirmRequest = async (comp) => {
+    try {
+      const cid = /^[0-9a-f-]{36}$/i.test(comp.id || "") ? comp.id : null;
+      await supabase.from("requests").insert({ companero_id: cid, companero_name: comp.name, companero_user_id: comp.user_id ?? null, traveller_id: user.id, traveller_email: user.email });
+    } catch (e) { console.error("request failed", e); }
+  };
 
   return (
     <div style={{ background: C.bg, minHeight: "100vh", color: C.ink }}>
@@ -692,12 +843,14 @@ export default function App() {
         }
         @media (min-width: 761px) { .cm-mob { display:none !important; } }
       `}</style>
-      <Nav go={go} solid={scrolled || view !== "home"} t={t} lang={lang} setLang={setLang} />
+      <Nav go={go} solid={scrolled || view !== "home"} t={t} lang={lang} setLang={setLang} user={user} onLogin={() => { setAuthNext("dashboard"); go("auth"); }} onLogout={() => supabase.auth.signOut()} onDashboard={() => go("dashboard")} />
       {view === "home" && <Home go={go} companions={companions} openComp={openComp} t={t} />}
-      {view === "become" && <Become go={go} onRegister={(c) => addCompanion(c)} t={t} />}
-      {view === "profile" && selected && <CompanionProfile comp={selected} i={idxOf(selected)} go={go} onRequest={(c) => setModal(c)} t={t} />}
+      {view === "become" && (user ? <Become go={go} onRegister={(c) => addCompanion(c)} t={t} /> : <Auth t={t} go={go} onAuthed={() => go("become")} />)}
+      {view === "auth" && <Auth t={t} go={go} onAuthed={() => go(authNext)} />}
+      {view === "dashboard" && (user ? <Dashboard t={t} go={go} user={user} myProfile={myProfile} sent={sent} received={received} onViewProfile={openComp} /> : <Auth t={t} go={go} onAuthed={() => go("dashboard")} />)}
+      {view === "profile" && selected && <CompanionProfile comp={selected} i={idxOf(selected)} go={go} onRequest={(c) => { if (user) setModal(c); else { setAuthNext("profile"); go("auth"); } }} t={t} />}
       {view === "sent" && sentComp && <Sent comp={sentComp} go={go} t={t} />}
-      {modal && <RequestModal comp={modal} i={idxOf(modal)} onClose={() => setModal(null)} onConfirm={() => { setSentComp(modal); setModal(null); go("sent"); }} t={t} />}
+      {modal && <RequestModal comp={modal} i={idxOf(modal)} onClose={() => setModal(null)} onConfirm={() => { confirmRequest(modal); setSentComp(modal); setModal(null); go("sent"); }} t={t} />}
     </div>
   );
 }
